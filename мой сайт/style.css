@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgoldenrodyellow
+}
+
+header {
+    height: 68px;
+    background-color: black;
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header a {
+    font-size: 20px;
+    color: yellow;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: black;  
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+    flex-wrap: wrap; 
+}
+
+main img {
+    width: 360px;
+    padding-bottom: 32px;
+}
+
+main .photo-vietnam {
+    height: 260px;
+}
+
+main .photo-greece {
+    height: 260px;
+}
+
+main p {
+    width: 706px;
+    font-size: 24px;
+    font-weight: 100;
+    color: black;
+    line-height: 36px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    font-style: italic;
+    color: yellow;
+    height: 120px;
+    background-color: black;
+}
